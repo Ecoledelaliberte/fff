@@ -1,0 +1,464 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ecole de la liberte</title>
+	<meta name="description" content="Ecole de la liberte" />
+	<meta name="keywords" content="Ecole de la liberte" />
+	<meta name="author" content="Pierric" />
+	<!-- Favicons (created with http://realfavicongenerator.net/)-->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+	<link rel="shortcut icon" href="img/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#00a8ff">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Normalize -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- Owl -->
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<!-- Animate.css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.1.0/css/font-awesome.min.css">
+	<!-- Elegant Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/eleganticons/et-icons.css">
+	<!-- Main style -->
+	<link rel="stylesheet" type="text/css" href="css/cardio.css">
+	<link rel="stylesheet" type="text/css" href="css/ecrit.css">
+	<link href="css/main.css" rel="stylesheet">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="style.css">
+    <!--   Typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+</head>
+
+<body>
+	
+
+
+	<div class="preloader">
+		<img src="img/loader.gif" alt="Preloader image">
+	</div>
+	<nav class="navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!--<a class="navbar-brand" href="#"><img src="img/logo.png" data-active-url="img/logo-active.png" alt=""></a>-->
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right main-nav">
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="mobi/index.html">Présentation</a></li>
+					<li><a href="https://drive.google.com/drive/folders/14gNs3zum7oX4GQNeuHsN-Fy3ZBPwjafT">Cours</a></li>
+					<li><a href="projet.html">Projets</a></li>
+					<li><a href="mailto:ecoledelaliberte@yahoo.com" data-toggle="modal" class="btn btn-blue">Envoyer un mail</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	
+
+	</nav>
+	<header id="intro">
+		<div class="container">
+			<div class="table">
+				<div class="header-text">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<!--<h3 class="light white"></h3>
+							<h1 class="white typed">Ho.... un visititeur.... content de te voir.... ^_^</h1>
+							<span class="typed-cursor">|</span>-->
+							<h1>Une école pour <span id="typed" style="color: red;"></span></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="cut cut-top"></div>
+		<div class="container">
+			<div class="row intro-tables">
+				<div class="col-md-4">
+					<div class="intro-table intro-table-first">
+						<h5 class="white heading"></h5>
+						<div class="owl-carousel owl-schedule bottom">
+							<div class="item">
+								
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Lundi</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 17:30</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Mardi</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 17:30</h5>
+									</div>
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Mercredi</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">Fermé</h5>
+									</div>
+								    
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Jeudi</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 17:30</h5>
+									</div>
+								    
+								</div>
+								<div class="schedule-row row">
+									<div class="col-xs-6">
+										<h5 class="regular white">Vendredi</h5>
+									</div>
+									<div class="col-xs-6 text-right">
+										<h5 class="white">8:30 - 17:30</h5>
+									</div>
+								    
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-table intro-table-hover">
+						<h5 class="black heading hide-hover">Construction de l'école</h5>
+						<div class="bottom">
+							<h4 class="black heading small-heading no-margin regular">Pour voir la construction de l'école c'est ici</h4>
+							<h4 class="black heading small-pt"></h4>
+							<a href="mobi/Construction.html" data-toggle="modal" class="black btn btn-white-fill expand">ici</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-table intro-table-third">
+						<h5 class="white heading"><a href="mobi/index.html">Présentations</a></h5>
+						<div class="owl-testimonials bottom">
+							<div class="item">
+								<h4 class="white heading content"></h4>
+								<h5 class="white heading light author"></h5>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services" class="section section-padded">
+		<div class="container">
+			<div class="row text-center title">
+				<h2>Notre devise</h2>
+				<h4 class="light muted"></h4>
+			</div>
+			<div class="row services">
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/heart-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Liberté</h4>
+						<h6 class="description">La liberté est la possibilité de pouvoir agir selon sa propre volonté, dans le cadre d'un système politique ou social, dans la mesure où l'on ne porte pas atteinte aux droits des autres et à la sécurité publique. Les différentes formes de liberté : Liberté naturelle : en vertu du droit naturel.</h6>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/guru-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Égalité</h4>
+						<h6 class="description">Le principe d'égalité qui apparaît en tête des deux grandes déclarations des droits de l'homme revêt deux aspects principaux : l'égalité civile, c'est-à-dire l'égalité devant la loi. l'égalité sociale, c'est-à-dire la recherche de l'égalité des droits sociaux.</h6>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service">
+						<div class="icon-holder">
+							<img src="img/icons/weight-blue.png" alt="" class="icon">
+						</div>
+						<h4 class="heading">Fraternité</h4>
+						<h6 class="description">La fraternité est le lien fraternel et naturel ainsi que le sentiment de solidarité et d'amitié qui unissent ou devraient unir les membres de la même famille que représente l'espèce humaine.</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cut cut-bottom"></div>
+	</section>
+	<section id="team" class="section gray-bg">
+		<div class="container">
+			<div class="row title text-center">
+				<h2 class="margin-top">Notre équipe</h2>
+				<h4 class="light muted"></h4>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover1.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">Cécile Carpentier</h3>
+								<h5 class="light light-white"></h5>
+							</div>
+						</div>
+						<img src="img/team/team3.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Cécile Carpentier</h4>
+							<h5 class="muted regular">Professeur & créatrice de l'école</h5>
+						</div>
+						<a href="mobi/index.html" data-toggle="modal" class="btn btn-blue-fill ripple">Présentation</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover2.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">Pierric</h3>
+								<h5 class="light light-white"></h5>
+							</div>
+						</div>
+						<img src="img/team/team1.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Pierric</h4>
+							<h5 class="muted regular">Apprenti webmaster</h5>
+						</div>
+						<!--<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue-fill ripple">Sign Up Now</a>-->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="team text-center">
+						<div class="cover" style="background:url('img/team/team-cover3.jpg'); background-size:cover;">
+							<div class="overlay text-center">
+								<h3 class="white">Merci aux bénévoles</h3>
+								<h5 class="light light-white"></h5>
+							</div>
+						</div>
+						<img src="img/team/team2.jpg" alt="Team Image" class="avatar">
+						<div class="title">
+							<h4>Bénévole</h4>
+							<!--<h5 class="muted regular">Personal Trainer</h5>-->
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--<section id="pricing" class="section">
+		<div class="container">
+			<div class="row title text-center">
+				<h2 class="margin-top white">Les cours</h2>
+				<h4 class="light white"></h4>
+			</div>
+			<div class="row no-margin">
+				<div class="col-md-7 no-padding col-md-offset-5 pricings text-center">
+					<div class="pricing">
+						<div class="box-main active" data-img="img/pricing1.jpg">
+							<h4 class="white">Les cours</h4>
+							<h4 class="white regular light">Connectez-vous pour pouvoir accéder aux cours.<span class="small-font"></span></h4>
+							<a href="cloudecole.ml"  class="btn btn-white-fill">Connexion</a>
+							<i class="info-icon icon_question"></i>
+						</div>
+						<div class="box-second active">
+							<ul class="white-list text-left">
+								<li>Leçons</li>
+								<li>Vidéos</li>
+								<li>Quiz</li>
+								<li>Aide</li>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="pricing">
+						<div class="box-main" data-img="img/pricing2.jpg">
+							<h4 class="white"></h4>
+							<h4 class="white regular light"><span class="small-font"></span></h4>
+							<a href="formulaire\Inscription\index.html" class="btn btn-white-fill">Crée un compte</a>
+							<i class="info-icon icon_question"></i>
+						</div>
+						<div class="box-second">
+							<ul class="white-list text-left">
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>-->
+	<section class="section section-padded blue-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="owl-twitter owl-carousel">
+						<div class="item text-center">
+							<i class="icon fa fa-facebook"></i>
+							<h4 class="white light">Suivez-nous sur Facebook</h4>
+							<h4 class="light-white light">#ecoledelaliberte #ecoledémocratique #Berlaimont</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon fa fa-twitter"></i>
+							<h4 class="white light"><a href="#"></a>Suivez-nous sur Twitter</h4>
+							<h4 class="light-white light">#ecoledelaliberte #ecoledémocratique #Berlaimont</h4>
+						</div>
+						<div class="item text-center">
+							<i class="icon fa fa-instagram"></i>
+							<h4 class="white light">Suivez-nous sur Instagram</h4>
+							<h4 class="light-white light">#ecoledelaliberte #ecoledémocratique #Berlaimont</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content modal-popup">
+				<a href="#" class="close-link"><i class="icon_close_alt2"></i></a>
+				<h3 class="white">Connexion</h3>
+				<form action="connexion.php" class="popup-form">
+					<input type="pseudo" class="form-control form-white" placeholder="pseudo">
+					
+					
+					
+					<button type="submit" class="btn btn-submit">Connexion</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white"></h3>
+					<h5 class="light regular light-white"></h5>
+					<a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-white-fill">Connexion</a>
+				</div>
+				<div class="col-sm-6 text-center-mobile">
+					<h3 class="white">Horaires<span class="open-blink"></span></h3>
+					
+						<div class="col-sm-6 text-center-mobile">
+							<h5 class="light-white light">Lundi, mardi, jeudi, vendredi Vendredi</h5>
+							<h3 class="regular white">08:30–17:30</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row bottom-footer text-center-mobile">
+				<div class="col-sm-8">
+					<?php
+					if(file_exists('compteur_visites.txt'))
+					{
+					        $compteur_f = fopen('compteur_visites.txt', 'r+');
+					        $compte = fgets($compteur_f);
+					}
+					else
+					{
+					        $compteur_f = fopen('compteur_visites.txt', 'a+');
+					        $compte = 0;
+					}
+					if(!isset($_SESSION['compteur_de_visite']))
+					{
+					        $_SESSION['compteur_de_visite'] = 'visite';
+					        $compte++;
+					        fseek($compteur_f, 0);
+					        fputs($compteur_f, $compte);
+					}
+					fclose($compteur_f);
+					
+					?>
+					<p><?php echo '.' . '<strong>'.$compte.'</strong> visites.'; ?></p>
+					<?php
+					if(file_exists('compteur_pages_vues.txt'))
+					{
+					        $compteur_f = fopen('compteur_pages_vues.txt', 'r+');
+					        $compte = fgets($compteur_f);
+					}
+					else
+					{
+					        $compteur_f = fopen('compteur_pages_vues.txt', 'a+');
+					        $compte = 0;
+					}
+					$compte++;
+					fseek($compteur_f, 0);
+					fputs($compteur_f, $compte);
+					fclose($compteur_f); 
+					
+					?>
+					<p><?php echo '.' . '<strong>'.$compte.'</strong> vues.'; ?></p>
+				</div>
+				<div class="col-sm-4 text-right text-center-mobile">
+					<ul class="social-footer">
+						<li><a href="https://www.facebook.com/%C3%89cole-de-la-libert%C3%A9-540191576505920"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Holder for mobile navigation -->
+	<div class="mobile-nav">
+		<ul>
+		</ul>
+		<a href="#" class="close-link"><i class="arrow_up"></i></a>
+	</div>
+	<!-- Scripts -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/typewriter.js"></script>
+	<script src="js/jquery.onepagenav.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	    var typed = new Typed('#typed', {
+	        strings: ["tous", "aprendre", "partagée ses passions"],
+	        typeSpeed : 100,
+	        backSpeed : 50,
+	        loop: true,
+	        showCursor: true
+	      
+	    })
+
+	    
+	      
+	    
+
+	</script>
+</body>
+
+</html>
